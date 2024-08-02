@@ -92,3 +92,8 @@ html.has-scroll-dragging {
   right: auto;
   bottom: 0;
 }
+
+.skills box-icon {
+  width: 40px;
+  height: 40px;
+}
