@@ -11,8 +11,8 @@ const App = () => {
   const scrollRef = useRef();
 
   useEffect(() => {
-    const locomotiveScroll = new LocomotiveScroll({
-      el: scrollRef.current,
+    let locomotiveScroll = new LocomotiveScroll({
+      el: document.querySelector(".smooth-scroll"),
       smooth: true,
     });
 
