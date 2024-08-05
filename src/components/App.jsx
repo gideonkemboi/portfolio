@@ -5,24 +5,37 @@ import About from "./about/About";
 import Projects from "./portfolio/Portfolio";
 import Contact from "./contact/Contact";
 import LocomotiveScroll from "locomotive-scroll";
-import "locomotive-scroll/src/locomotive-scroll.scss";
 
 const App = () => {
   const scrollRef = useRef();
 
+  // Initialize Locomotive Scroll after the component mounts
   useEffect(() => {
-    let locomotiveScroll = new LocomotiveScroll({
-      el: document.querySelector(".smooth-scroll"),
-      smooth: true,
-    });
+    let locomotiveScroll;
 
-    locomotiveScroll.update();
-    window.scroll = locomotiveScroll;
+    const initializeScroll = () => {
+      locomotiveScroll = new LocomotiveScroll({
+        el: document.querySelector(".smooth-scroll"),
+        smooth: true,
+      });
+      locomotiveScroll.update();
+      window.scroll = locomotiveScroll;
+    };
+
+    // Check if the document is already fully loaded
+    if (document.readyState === "complete") {
+      initializeScroll();
+    } else {
+      // Initialize Locomotive Scroll once the window has fully loaded
+      window.addEventListener("load", initializeScroll);
+    }
 
     return () => {
       if (locomotiveScroll) locomotiveScroll.destroy();
+      window.removeEventListener("load", initializeScroll);
     };
   }, []);
+
   return (
     <div
       data-scroll-container
