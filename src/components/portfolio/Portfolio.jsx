@@ -2,7 +2,8 @@ import { useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import holder from "/src/assets/images/holder.jpg";
+import chatapp from "/src/assets/images/chatapp-ss.png";
+import chatappApi from "/src/assets/images/chatapp-api.png"
 
 const Portfolio = () => {
   const animation = useAnimation();
@@ -60,31 +61,27 @@ const Portfolio = () => {
             data-scroll-speed="5"
             variants={list}
           >
-            <img
-              className="mb-4"
-              src={holder}
-              alt="project"
-            />
+            <img className="mb-4" src={chatapp} alt="project" />
             <ProjectCard
-              name={"Lorem"}
-              tags={["Lorem"]}
-              github={"#"}
-              liveDemo={"#"}
-              alt={"Lorem"}
-              description={"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem explicabo ullam velit ipsam, minus quam voluptate debitis. Aperiam voluptatem nemo, architecto, quis et, sit esse aut doloribus numquam quaerat ut."}
+              name={"ChatApp Web Client"}
+              tags={["html", "css", "react"]}
+              github="https://github.com/gdnkemboi/messaging-app-client"
+              liveDemo="https://chat-app-wjws.onrender.com/"
+              description={
+                "Messaging App client build with React and consumes an api built with express"
+              }
             />
           </motion.div>
 
           <div data-scroll data-scroll-delay=".1" data-scroll-speed="5">
-            <img className="mb-4" src={holder} alt="project" />
+            <img className="mb-4" src={chatappApi} alt="project" />
             <ProjectCard
-              name={"Lorem"}
-              tags={["Lorem ipsum"]}
-              github={"#"}
-              liveDemo={"#"}
-              alt={"Lorem ipsum"}
+              name={"ChatApp API"}
+              tags={["node.js", "express", "mongodb"]}
+              github="https://github.com/gdnkemboi/messaging-app-api"
+              liveDemo="https://messaging-app-api-rf3y.onrender.com/"
               description={
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem explicabo ullam velit ipsam, minus quam voluptate debitis. Aperiam voluptatem nemo, architecto, quis et, sit esse aut doloribus numquam quaerat ut."
+                "Messaging app API built with express with features such as one-on-one messaging between users, group messaging, contacts handling among others."
               }
             />
           </div>

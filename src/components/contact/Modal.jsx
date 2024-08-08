@@ -23,7 +23,7 @@ const Modal = ({ showModal, setShowModal }) => {
           initial="hidden"
           animate="visible"
           exit="exit"
-          className="absolute flex justify-center items-center left-0 right-0 bottom-10 h-screen w-full"
+          className="fixed inset-0 flex justify-center items-center z-50 bg-black bg-opacity-50"
         >
           <motion.div
             variants={content}
@@ -34,7 +34,7 @@ const Modal = ({ showModal, setShowModal }) => {
             </h2>
             <div className="font-body px-4 pb-10 text-lg leading-loose">
               <p>Thanks for the message!</p>
-              <p>I@aposll get back to you as soon as I can!</p>
+              <p>I&apos;ll get back to you as soon as I can!</p>
               <button
                 onClick={() => setShowModal(false)}
                 className="bg-light-green mt-2 p-2 border border-graphite font-body md:w-1/3 hover:scale-105 active:scale-95 transform duration-200"

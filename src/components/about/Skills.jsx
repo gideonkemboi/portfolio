@@ -63,7 +63,10 @@ function Skills() {
           variants={header}
           className="font-body lg:text-lg leading-loose lg:leading-loose lg:w-3/4"
         >
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nostrum neque sed nisi omnis, facere fuga blanditiis voluptatibus itaque perferendis aut? Natus unde necessitatibus officia! Molestias quae minima explicabo minus.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nostrum
+          neque sed nisi omnis, facere fuga blanditiis voluptatibus itaque
+          perferendis aut? Natus unde necessitatibus officia! Molestias quae
+          minima explicabo minus.
         </motion.p>
       </div>
 
@@ -217,17 +220,7 @@ function Skills() {
               ></box-icon>
               MongoDB
             </motion.li>
-            <motion.li
-              variants={icons}
-              className="icon flex flex-col items-center"
-            >
-              <box-icon
-                type="logo"
-                name="postgresql"
-                className="text-4xl mb-2"
-              ></box-icon>
-              PostgreSQL
-            </motion.li>
+
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
