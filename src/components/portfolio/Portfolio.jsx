@@ -63,7 +63,7 @@ const Portfolio = () => {
           >
             <img className="mb-4" src={chatapp} alt="project" />
             <ProjectCard
-              name={"ChatApp Web Client"}
+              name={"messaging app web client"}
               tags={["html", "css", "react"]}
               github="https://github.com/gdnkemboi/messaging-app-client"
               liveDemo="https://chat-app-wjws.onrender.com/"
@@ -76,7 +76,7 @@ const Portfolio = () => {
           <div data-scroll data-scroll-delay=".1" data-scroll-speed="5">
             <img className="mb-4" src={chatappApi} alt="project" />
             <ProjectCard
-              name={"ChatApp API"}
+              name={"messaging app API"}
               tags={["node.js", "express", "mongodb"]}
               github="https://github.com/gdnkemboi/messaging-app-api"
               liveDemo="https://messaging-app-api-rf3y.onrender.com/"

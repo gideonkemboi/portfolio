@@ -58,17 +58,14 @@ function Bio() {
             className="text-lg md:text-xl text-justify tracking-tight leading-relaxed md:leading-loose"
             variants={list}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-            mollitia voluptas unde nisi aut totam aliquam, tempore distinctio,
-            esse officiis libero incidunt nemo autem. Odit quos deserunt magni
-            animi tempora? Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Omnis cum, est qui nulla repellat impedit, suscipit, minima
-            consectetur sequi ipsa ea corrupti temporibus illum facere magnam
-            repudiandae perferendis autem eaque? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Expedita maxime magni placeat
-            reiciendis voluptates tempora veritatis possimus quia accusamus?
-            Saepe corporis iste inventore at blanditiis quas magnam nulla,
-            itaque voluptatum.
+            I&apos;m a Full-Stack Developer with a strong leaning towards
+            backend development, based in Nairobi, Kenya. I thrive on the
+            challenge of building robust, scalable systems while ensuring a
+            seamless user experience on the front end. Learning new technologies
+            and concepts is a constant pursuit for me, as I strive to stay at
+            the forefront of the ever-evolving tech landscape. When I&apos;m not
+            coding, I enjoy exploring new ideas and expanding my knowledge
+            across various fields.
           </motion.p>
           <motion.button
             className="bg-black bg-opacity-90 text-light-green h-full w-max mt-8 p-4 hover:scale-105 hover:tracking-wider active:scale-95 transform duration-200 shadow-2xl hover:text-yellow-500"

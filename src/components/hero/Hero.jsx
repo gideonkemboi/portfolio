@@ -84,7 +84,7 @@ const Hero = () => {
             data-scroll-direction="horizontal"
             data-scroll-speed="1"
           >
-            FULL &nbsp;
+            FULL-&nbsp;
           </p>
           <p
             data-scroll
@@ -139,54 +139,47 @@ const Hero = () => {
           animate="visible"
           variants={container}
         >
-          <motion.div
+          <motion.a
             variants={icon}
-            className="bg-gray-200 m-auto p-2 rounded-full transform transition hover:scale-125 active:scale-95"
+            className="bg-red-200 w-10 h-10 flex items-center justify-center p-2 rounded-full transform transition hover:scale-125 active:scale-95"
+            href="https://github.com/gdnkemboi"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a
-              href="https://github.com/gdnkemboi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <box-icon
-                type="logo"
-                name="github"
-                className="h-4 w-4 md:h-5 md:w-5"
-              ></box-icon>
-            </a>
-          </motion.div>
-          <motion.div
+            <box-icon
+              type="logo"
+              name="github"
+              className="h-4 w-4 md:h-5 md:w-5"
+            ></box-icon>
+          </motion.a>
+
+          <motion.a
             variants={icon}
-            className="bg-blue-200 m-auto p-2 rounded-full transform transition hover:scale-125 active:scale-95"
+            className="bg-red-200 w-10 h-10 flex items-center justify-center p-2 rounded-full transform transition hover:scale-125 active:scale-95"
+            href="https://www.linkedin.com/in/gideonkemboi/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a
-              href="https://www.linkedin.com/in/gideonkemboi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <box-icon
-                name="linkedin-square"
-                type="logo"
-                className="h-4 w-4 md:h-5 md:w-5"
-              ></box-icon>
-            </a>
-          </motion.div>
-          <motion.div
+            <box-icon
+              name="linkedin-square"
+              type="logo"
+              className="h-4 w-4 md:h-5 md:w-5"
+            ></box-icon>
+          </motion.a>
+
+          <motion.a
             variants={icon}
-            className="bg-red-200 m-auto p-2 rounded-full transform transition hover:scale-125 active:scale-95"
+            className="bg-red-200 w-10 h-10 flex items-center justify-center p-2 rounded-full transform transition hover:scale-125 active:scale-95"
+            href="mailto:gedionkemboi18@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a
-              href="mailto:gedionkemboi18@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <box-icon
-                name="gmail"
-                type="logo"
-                className="h-4 w-4 md:h-5 md:w-5"
-              ></box-icon>
-            </a>
-          </motion.div>
+            <box-icon
+              name="gmail"
+              type="logo"
+              className="h-4 w-4 md:h-5 md:w-5"
+            ></box-icon>
+          </motion.a>
         </motion.div>
       </div>
     </div>

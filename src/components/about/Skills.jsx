@@ -63,10 +63,16 @@ function Skills() {
           variants={header}
           className="font-body lg:text-lg leading-loose lg:leading-loose lg:w-3/4"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nostrum
-          neque sed nisi omnis, facere fuga blanditiis voluptatibus itaque
-          perferendis aut? Natus unde necessitatibus officia! Molestias quae
-          minima explicabo minus.
+          I specialize in developing modern web applications with a strong
+          foundation in both frontend and backend technologies. On the frontend,
+          I excel in HTML5, CSS3, TailwindCSS, React, JavaScript, and
+          TypeScript, building dynamic and responsive user interfaces that
+          provide a seamless user experience. My backend expertise includes
+          Python with Django and Node.js with Express, where I create robust
+          server-side applications and design efficient APIs and handle database
+          interactions with MongoDB and PostgreSQL. With a comprehensive skill
+          set that spans the full stack, I&apos;m equipped to build and maintain
+          scalable applications from start to finish.
         </motion.p>
       </div>
 
@@ -171,6 +177,39 @@ function Skills() {
             >
               <box-icon
                 type="logo"
+                name="python"
+                className="text-4xl mb-2"
+              ></box-icon>
+              Python
+            </motion.li>
+            <motion.li
+              variants={icons}
+              className="icon flex flex-col items-center"
+            >
+              <box-icon
+                type="logo"
+                name="django"
+                className="text-4xl mb-2"
+              ></box-icon>
+              Django
+            </motion.li>
+            <motion.li
+              variants={icons}
+              className="icon flex flex-col items-center"
+            >
+              <box-icon
+                type="logo"
+                name="javascript"
+                className="text-4xl mb-2"
+              ></box-icon>
+              JavaScript
+            </motion.li>
+            <motion.li
+              variants={icons}
+              className="icon flex flex-col items-center"
+            >
+              <box-icon
+                type="logo"
                 name="html5"
                 className="text-4xl mb-2"
               ></box-icon>
@@ -187,17 +226,7 @@ function Skills() {
               ></box-icon>
               Express
             </motion.li>
-            <motion.li
-              variants={icons}
-              className="icon flex flex-col items-center"
-            >
-              <box-icon
-                type="logo"
-                name="javascript"
-                className="text-4xl mb-2"
-              ></box-icon>
-              JavaScript
-            </motion.li>
+
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
@@ -231,28 +260,6 @@ function Skills() {
                 className="text-4xl mb-2"
               ></box-icon>
               PostgreSQL
-            </motion.li>
-            <motion.li
-              variants={icons}
-              className="icon flex flex-col items-center"
-            >
-              <box-icon
-                type="logo"
-                name="python"
-                className="text-4xl mb-2"
-              ></box-icon>
-              Python
-            </motion.li>
-            <motion.li
-              variants={icons}
-              className="icon flex flex-col items-center"
-            >
-              <box-icon
-                type="logo"
-                name="django"
-                className="text-4xl mb-2"
-              ></box-icon>
-              Django
             </motion.li>
           </motion.ul>
         </motion.div>
