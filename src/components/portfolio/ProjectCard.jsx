@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-import "boxicons";
+import Github from "../../assets/icons/github.svg";
+import link from "../../assets/icons/link.svg";
 
 function ProjectCard({ name, tags, github, liveDemo, description }) {
   const tagList = tags.map((tag) => (
@@ -26,11 +27,11 @@ function ProjectCard({ name, tags, github, liveDemo, description }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <box-icon
-            type="logo"
-            name="github"
-            class="h-6 w-6 hover:scale-125 active:scale-95 transition duration-150"
-          ></box-icon>
+          <img
+            src={Github}
+            alt="github-logo"
+            className="h-6 w-6 hover:scale-125 active:scale-95 transition duration-150"
+          ></img>
         </a>
         <a
           title="Live Demo"
@@ -38,10 +39,11 @@ function ProjectCard({ name, tags, github, liveDemo, description }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <box-icon
-            name="link-external"
-            class="h-6 w-6 hover:scale-125 active:scale-95 transition duration-150"
-          ></box-icon>
+          <img
+            src={link}
+            alt="external-link"
+            className="h-6 w-6 hover:scale-125 active:scale-95 transition duration-150"
+          ></img>
         </a>
       </div>
     </div>

@@ -3,6 +3,8 @@ import { HashLink } from "react-router-hash-link";
 import ContactForm from "./ContactForm";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import github from "../../assets/icons/github.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
 
 const Contact = () => {
   const animation = useAnimation();
@@ -55,7 +57,11 @@ const Contact = () => {
               className="m-auto md:m-0 md:text-left bg-black bg-opacity-90 font-body text-light-green h-full w-max mt-6 p-4
                         hover:scale-105 hover:tracking-wider active:scale-95 transform duration-200 shadow-2xl hover:text-yellow-500"
             >
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://docs.google.com/document/d/1Xy0AvbBWhlWhAvn80vDj3fVTPzf_Yjdf/edit?usp=drive_link&ouid=115523100501084272212&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 View Resume
               </a>
             </button>
@@ -73,15 +79,15 @@ const Contact = () => {
               </div>
               <div>
                 <p>Or find me here</p>
-                <div className="flex justify-center md:justify-start space-x-2">
+                <div className="links flex justify-center md:justify-start space-x-2">
                   <a
                     href="https://github.com/gdnkemboi"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <box-icon
-                      type="logo"
-                      name="github"
+                    <img
+                      src={github}
+                      alt="github-logo"
                       className="h-5 w-5 hover:scale-125 active:scale-95 transition duration-150"
                     />
                   </a>
@@ -90,9 +96,9 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <box-icon
-                      type="logo"
-                      name="linkedin"
+                    <img
+                      src={linkedin}
+                      alt="linkedin-logo"
                       className="h-5 w-5 hover:scale-125 active:scale-95 transition duration-150"
                     />
                   </a>

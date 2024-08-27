@@ -3,7 +3,9 @@ import Nav from "../../Nav";
 import NET from "vanta/dist/vanta.net.min";
 import { motion } from "framer-motion";
 import * as THREE from "three";
-import "boxicons";
+import gmail from "../../assets/icons/gmail.svg";
+import github from "../../assets/icons/github.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
 
 const Hero = () => {
   const container = {
@@ -141,16 +143,16 @@ const Hero = () => {
         >
           <motion.a
             variants={icon}
-            className="bg-red-200 w-10 h-10 flex items-center justify-center p-2 rounded-full transform transition hover:scale-125 active:scale-95"
+            className="links bg-red-200 w-10 h-10 flex items-center justify-center p-2 rounded-full transform transition hover:scale-125 active:scale-95"
             href="https://github.com/gdnkemboi"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <box-icon
-              type="logo"
-              name="github"
+            <img
+              src={github}
+              alt="github-logo"
               className="h-4 w-4 md:h-5 md:w-5"
-            ></box-icon>
+            ></img>
           </motion.a>
 
           <motion.a
@@ -160,11 +162,11 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <box-icon
-              name="linkedin-square"
-              type="logo"
+            <img
+              src={linkedin}
+              alt="linkedin-logo"
               className="h-4 w-4 md:h-5 md:w-5"
-            ></box-icon>
+            ></img>
           </motion.a>
 
           <motion.a
@@ -174,11 +176,11 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <box-icon
-              name="gmail"
-              type="logo"
+            <img
+              src={gmail}
+              alt="gmail-logo"
               className="h-4 w-4 md:h-5 md:w-5"
-            ></box-icon>
+            ></img>
           </motion.a>
         </motion.div>
       </div>

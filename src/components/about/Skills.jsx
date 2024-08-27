@@ -1,7 +1,22 @@
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "boxicons";
+import html5 from "../../assets/icons/html5.svg";
+import css from "../../assets/icons/css3.svg";
+import tailwind from "../../assets/icons/tailwind-css.svg";
+import javascript from "../../assets/icons/javascript.svg";
+import react from "../../assets/icons/react.svg";
+import typescript from "../../assets/icons/typescript.svg";
+import python from "../../assets/icons/python.svg";
+import django from "../../assets/icons/django.svg";
+import nodejs from "../../assets/icons/nodejs.svg";
+import express from "../../assets/icons/express.svg";
+import mongodb from "../../assets/icons/mongodb.svg";
+import postgresql from "../../assets/icons/postgresql.svg";
+import git from "../../assets/icons/git.svg";
+import github from "../../assets/icons/github.svg";
+import docker from "../../assets/icons/docker.svg";
+import postman from "../../assets/icons/postman.svg";
 
 function Skills() {
   const animation = useAnimation();
@@ -94,66 +109,54 @@ function Skills() {
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="html5"
-                className="text-4xl mb-2"
-              ></box-icon>
+              <img src={html5} alt="html-logo" className="text-4xl mb-2"></img>
               HTML5
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="css3"
-                className="text-4xl mb-2"
-              ></box-icon>
+              <img src={css} alt="css-logo" className="text-4xl mb-2"></img>
               CSS3
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="javascript"
+              <img
+                src={javascript}
+                alt="javascript-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               JavaScript
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="typescript"
+              <img
+                src={typescript}
+                alt="typescript-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               TypeScript
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="react"
-                className="text-4xl mb-2"
-              ></box-icon>
+              <img src={react} alt="react-logo" className="text-4xl mb-2"></img>
               React
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="tailwind-css"
+              <img
+                src={tailwind}
+                alt="tailwindcss-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               Tailwind
             </motion.li>
           </motion.ul>
@@ -175,55 +178,55 @@ function Skills() {
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="python"
+              <img
+                src={python}
+                alt="python-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               Python
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="django"
+              <img
+                src={django}
+                alt="django-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               Django
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="javascript"
+              <img
+                src={javascript}
+                alt="javacript-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               JavaScript
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="html5"
+              <img
+                src={nodejs}
+                alt="nodejs-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               NodeJs
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="css3"
+              <img
+                src={express}
+                alt="express-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               Express
             </motion.li>
 
@@ -231,22 +234,22 @@ function Skills() {
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="typescript"
+              <img
+                src={typescript}
+                alt="typescript-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               TypeScript
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="mongodb"
+              <img
+                src={mongodb}
+                alt="mongodb-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               MongoDB
             </motion.li>
 
@@ -254,11 +257,11 @@ function Skills() {
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="postgresql"
+              <img
+                src={postgresql}
+                alt="postgres-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               PostgreSQL
             </motion.li>
           </motion.ul>
@@ -280,11 +283,7 @@ function Skills() {
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="git"
-                className="text-4xl mb-2"
-              ></box-icon>
+              <img src={git} alt="git-logo" className="text-4xl mb-2"></img>
               git
             </motion.li>
 
@@ -292,23 +291,34 @@ function Skills() {
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="github"
+              <img
+                src={github}
+                alt="github-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               Github
             </motion.li>
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"
             >
-              <box-icon
-                type="logo"
-                name="docker"
+              <img
+                src={docker}
+                alt="docker-logo"
                 className="text-4xl mb-2"
-              ></box-icon>
+              ></img>
               Docker
+            </motion.li>
+            <motion.li
+              variants={icons}
+              className="icon flex flex-col items-center"
+            >
+              <img
+                src={postman}
+                alt="postman-logo"
+                className="text-4xl mb-2"
+              ></img>
+              Postman
             </motion.li>
           </motion.ul>
         </motion.div>

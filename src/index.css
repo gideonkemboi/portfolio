@@ -99,7 +99,12 @@ html.has-scroll-dragging {
   bottom: 0;
 }
 
-.skills box-icon {
+.links img {
+  width: 30px;
+  height: 30px;
+}
+
+.skills img {
   width: 40px;
   height: 40px;
 }
