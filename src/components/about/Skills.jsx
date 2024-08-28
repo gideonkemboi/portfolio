@@ -21,7 +21,7 @@ import postman from "../../assets/icons/postman.svg";
 function Skills() {
   const animation = useAnimation();
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.3,
   });
 
   useEffect(() => {
