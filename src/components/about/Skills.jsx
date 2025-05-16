@@ -17,6 +17,7 @@ import git from "../../assets/icons/git.svg";
 import github from "../../assets/icons/github.svg";
 import docker from "../../assets/icons/docker.svg";
 import postman from "../../assets/icons/postman.svg";
+import java from "../../assets/icons/java.svg";
 
 function Skills() {
   const animation = useAnimation();
@@ -241,6 +242,19 @@ function Skills() {
               ></img>
               TypeScript
             </motion.li>
+
+            <motion.li
+              variants={icons}
+              className="icon flex flex-col items-center"
+            >
+              <img
+                src={java}
+                alt="java-logo"
+                className="text-4xl mb-2"
+              ></img>
+              Java
+            </motion.li>
+
             <motion.li
               variants={icons}
               className="icon flex flex-col items-center"

@@ -65,7 +65,7 @@ const Portfolio = () => {
             <ProjectCard
               name={"messaging app web client"}
               tags={["html", "css", "react"]}
-              github="https://github.com/gdnkemboi/messaging-app-client"
+              github="https://github.com/gideonkemboi/messaging-app-client"
               liveDemo="https://chat-app-wjws.onrender.com/"
               description={
                 "Messaging App client build with React and consumes an api built with express"
@@ -78,7 +78,7 @@ const Portfolio = () => {
             <ProjectCard
               name={"messaging app API"}
               tags={["node.js", "express", "mongodb"]}
-              github="https://github.com/gdnkemboi/messaging-app-api"
+              github="https://github.com/gideonkemboi/messaging-app-api"
               liveDemo="https://messaging-app-api-rf3y.onrender.com/"
               description={
                 "Messaging app API built with express with features such as one-on-one messaging between users, group messaging, contacts handling among others."

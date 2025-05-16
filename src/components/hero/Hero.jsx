@@ -144,7 +144,7 @@ const Hero = () => {
           <motion.a
             variants={icon}
             className="links bg-red-200 w-10 h-10 flex items-center justify-center p-2 rounded-full transform transition hover:scale-125 active:scale-95"
-            href="https://github.com/gdnkemboi"
+            href="https://github.com/gideonkemboi"
             target="_blank"
             rel="noopener noreferrer"
           >

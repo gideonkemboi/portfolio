@@ -58,7 +58,7 @@ const Contact = () => {
                         hover:scale-105 hover:tracking-wider active:scale-95 transform duration-200 shadow-2xl hover:text-yellow-500"
             >
               <a
-                href="https://docs.google.com/document/d/1Xy0AvbBWhlWhAvn80vDj3fVTPzf_Yjdf/edit?usp=drive_link&ouid=115523100501084272212&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/12W0scRhPuw4q5h__kVNh8WNT_LcpytUb/edit?usp=drive_link&ouid=115523100501084272212&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -81,7 +81,7 @@ const Contact = () => {
                 <p>Or find me here</p>
                 <div className="links flex justify-center md:justify-start space-x-2">
                   <a
-                    href="https://github.com/gdnkemboi"
+                    href="https://github.com/gideonkemboi"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
